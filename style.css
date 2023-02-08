@@ -1,0 +1,7 @@
+.hero {
+  background: linear-gradient(289deg, #662eed, #9670f3, #f1619a, #ffc955);
+  animation: MovingMaxGradient 10s ease infinite;
+  background-size: 600% 600%;
+  max-width: 1600px;
+  padding: 30px;
+}
