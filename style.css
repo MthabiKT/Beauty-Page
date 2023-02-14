@@ -1,7 +1,29 @@
+:root {
+  --main-color: #fefaec;
+}
+body {
+  background-color: var(--main-color);
+  font-family: "Cormorant Garmond", serif;
+}
+
 .hero {
-  background: linear-gradient(289deg, #662eed, #9670f3, #f1619a, #ffc955);
-  animation: MovingMaxGradient 10s ease infinite;
-  background-size: 600% 600%;
-  max-width: 1600px;
-  padding: 30px;
+  height: 640px;
+}
+
+.navbar {
+  background-color: var(--main-color);
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+}
+.nav-item {
+  padding: 0 12px;
+  margin: 8px 0;
+}
+h1 {
+  font-size: 70px;
+  font-family: "Noto Serif", serif;
+}
+h2 {
+  font-size: 70px;
+  font-family: "Alex Brush", cursive;
 }
