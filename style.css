@@ -44,6 +44,10 @@ h1 {
   font-family: "Noto Serif", serif;
 }
 h2 {
+  font-family: "Alex Brush", cursive;
+  font-size: 50px;
+}
+.subtitle {
   font-size: 70px;
   font-family: "Alex Brush", cursive;
 }
@@ -54,4 +58,8 @@ h2 {
 .img-fluid {
   max-width: 80%;
   height: auto;
+}
+.product-grid {
+  border: groove;
+  padding: 0%;
 }
